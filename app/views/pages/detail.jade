@@ -1,0 +1,13 @@
+extend ../layout
+
+block content
+	.container
+		.row
+			.col-md-7
+				img(src=#"commodity.imgSrc", align="middle", width="720", height="600")
+			.col-md-5
+				dl.dl-horizontal
+					dt 手机名称
+					dd=commodity.name
+					dt 手机价格
+					dd= commodity.price

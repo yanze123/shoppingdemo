@@ -1,0 +1,12 @@
+extends ../layout
+
+block content
+	.container
+		.row
+			each item in cammodities
+				.col-md-2
+					.thumbanil
+						a(href="/commodity/#{item_id}")
+							img(src="#{item.imgSrc}")
+						.caption
+							h3 #{item.name}
