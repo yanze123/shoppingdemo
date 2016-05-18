@@ -1,0 +1,1 @@
+var Commodity = require('../models/commodity')
